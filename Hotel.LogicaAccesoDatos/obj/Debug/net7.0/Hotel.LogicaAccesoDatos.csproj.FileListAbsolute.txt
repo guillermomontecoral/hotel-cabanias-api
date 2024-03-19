@@ -1,0 +1,102 @@
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\monte\source\repos\Programacion3_Marzo2023\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\Ulisei\Desktop\Nueva carpeta (3)\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\monte\Desktop\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\monte\Desktop\Programacion3_Marzo2023\Obligatorio\00_Parte 2 Obligatorio\E-132489-1_ConAPI\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.deps.json
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.runtimeconfig.json
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.AssemblyInfo.cs
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.csproj.CopyComplete
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\refint\Hotel.LogicaAccesoDatos.dll
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\Hotel.LogicaAccesoDatos.genruntimeconfig.cache
+C:\Users\monte\OneDrive\ORT\03.2.TercerSemestre-Marzo2023\FI-ET Programación 3\Obligatorio\00_Parte 2 Obligatorio\EntregaP3 (7)\EntregaP3\OblHotel\Hotel.LogicaAccesoDatos\obj\Debug\net7.0\ref\Hotel.LogicaAccesoDatos.dll

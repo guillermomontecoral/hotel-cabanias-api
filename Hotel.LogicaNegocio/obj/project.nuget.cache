@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EO5nrFUSDevg/jGbv+8HHbccm234XqCPqxCC/MX86TMdOiTYkdBALvkZlLs8CdkOERD1lvhbktd3RF3R7FAehw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\monte\\OneDrive\\ORT\\03.2.TercerSemestre-Marzo2023\\FI-ET Programación 3\\Obligatorio\\00_Parte 2 Obligatorio\\EntregaP3 (7)\\EntregaP3\\OblHotel\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monte\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.4\\microsoft.entityframeworkcore.abstractions.7.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

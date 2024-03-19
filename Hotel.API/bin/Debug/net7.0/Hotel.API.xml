@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hotel.API</name>
+    </assembly>
+    <members>
+        <member name="M:Hotel.API.Controllers.CabanhaController.Get">
+            <summary>
+            Retorna todas cabañas registradas.
+            </summary>
+            <returns>Una lista con todas las cabañas. La lista vacía si no hay cabañas.</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Retorna una cabaña dado su ID
+            </summary>
+            <param name="id">Identificador de lacabaña</param>
+            <returns>La cabaña encontrada ,de lo contrario null si no existe una cabaña con ese identificador</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.Post(Hotel.LogicaAplicacion.Dtos.Cabanha_Dto.CabanhaDto)">
+            <summary>
+            Registra una nueva cabaña. El nombre debe ser unico
+            </summary>
+            <param name="cabanhaDto">Objeto que incluye toda la información para crear una cabaña.</param>
+            <returns>
+            Si el alta es exitosa, incluye la url para poder acceder a la cabaña y 
+            en el body los datos de la cabaña.
+            </returns>
+            <remarks>
+            El ID de la cabaña debe estar en 0, ya que el mismo es un identity y se genera solo, de lo contrario dara error 409.
+            El numero de habitacion debe ir en 0, por mas que se le ingrese un numero este es autonumerico asi que se le asigna el siguiente numero de la ultima cabaña registrada.
+            <code>
+                Ejemplo de solicitud:
+                POST api/cabanha
+                Incluir en el body:
+                {
+                    "id": 0,
+                    "nombre": "nombre cabaña",
+                    "descripcion": "descripcion cabaña",
+                    "idTipoCabanha": 1,
+                    "jacuzzi": true,
+                    "habilitadaParaReservas": false,
+                    "numHabitacion": 0,
+                    "cantMaxPersonas": 6,
+                    "nombreFoto": "nombreImg_001.png"
+                 }
+                 </code>
+            </remarks>
+            <response code="201">Retorna la cabaña incluyendo el id que le fue asignado.</response>
+            <response code="404">La cabaña es nula o hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.Put(System.Nullable{System.Int32},Hotel.LogicaAplicacion.Dtos.Cabanha_Dto.CabanhaModificarDto)">
+            <summary>
+            Modifica los datos de la cabaña dado su ID.
+            </summary>
+            <param name="id">Identificador de la cabaña a modificar.</param>
+            <param name="cabanhaDto">Objeto que guarda toda la informacion a modificar.</param>
+            <returns>Muestras los datos de la cabaña en caso de exito y su codigo de estado</returns> 
+            <remarks>
+            El ID de la cabaña debe coincidir con el ID a buscar.
+            El numero de habitacion debe ir en 0, por mas que se le ingrese un numero este es autonumerico asi que se le asigna el siguiente numero de la ultima cabaña registrada.
+            <code>
+                Ejemplo de solicitud:
+                POST api/cabanha
+                Incluir en el body:
+                {
+                    "id": 1,
+                    "nombre": "nombre cabaña",
+                    "descripcion": "descripcion cabaña",
+                    "idTipoCabanha": 1,
+                    "jacuzzi": true,
+                    "habilitadaParaReservas": false,
+                    "numHabitacion": 0,
+                    "cantMaxPersonas": 6
+                 }
+                 </code>
+            </remarks>
+            <response code="200">Retorna la cabaña, incluyendo el id que le fue asignado.</response>
+            <response code="401">Si no esta autorizado.</response>
+            <response code="404">La cabaña o id es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Permite eliminar una cabaña dado su ID.
+            </summary>
+            <param name="id">Identificador de la cabaña a eliminar</param>
+            <returns>Retona indicando que el objeto no existe,</returns>        
+            <response code="204">En caso de eliminarlo con exito</response> 
+            <response code="401">Si no esta autorizado.</response>
+            <response code="404">Si la cabaña o id es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.GetByNombre(System.String)">
+            <summary>
+            Busca las cabañas por un texto que exista en su nombre
+            </summary>
+            <param name="textoEnNombre">Parametro que se utilizara para buscar las cabañas</param>
+            <returns>Se mostraran los datos de las cabaña con ese nombre</returns>      
+            <response code="200">En caso de encontrar cabañas con ese texto en el nombre</response>
+            <response code="401">Si no esta autorizado.</response>
+            <response code="404">Si no hay resultados.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.GetByTiposCabanhas(System.Nullable{System.Int32})">
+            <summary>
+            Busca las cabañas que esten registradas con un tipo de cabaña predeterminado
+            </summary>
+            <param name="idTipoCabanha">Parametro que se utilizara para buscar las cabañas</param>
+            <returns>Se mostraran los datos de las cabaña con ese nombre</returns>      
+            <response code="200">En caso de encontrar cabañas con ese tipo de cabaña</response>
+            <response code="400">Si el id ingresado a buscar es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.GetByMaxPersonas(System.Nullable{System.Int32})">
+            <summary>
+            Busca las cabañas que esten registradas y permitan la cantidad de personas ingresadas.
+            </summary>
+            <param name="maxPersonas">Parametro que se utilizara para buscar las cabañas</param>
+            <returns>Se muestran todas las cabañas que  permitan esa cantidad o más de personas.</returns>      
+            <response code="200">En caso de encontrar cabañas con esa cantidad o superiror de personas</response>
+            <response code="400">Si el parametro ingresado es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.GetByHabilitadas">
+            <summary>
+            Busca las cabañas que esten registradas y esten habilitadas para la reserva.
+            </summary>
+            <returns>Se muestran todas las cabañas habilitadas.</returns>      
+            <response code="200">En caso de encontrar cabañas habilitadas</response>
+            <response code="400">Si el parametro ingresado es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.CabanhaController.GetByConsulta6A(System.Nullable{System.Decimal})">
+            <summary>
+            Busca las cabañas que esten registradas, habilitadas para reservan, cuenten con jacuzzi y y su costo sea menor al ingresado como parametro
+            </summary>
+            <param name="monto">Parametro que se utilizara para buscar por el monto</param>
+            <returns>Se muestran todas las cabañas habilitadas.</returns>      
+            <response code="200">En caso de encontrar cabañas habilitadas</response>
+            <response code="400">Si el parametro ingresado es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.Get">
+            <summary>
+            Retorna todos los mantenimientos registrados
+            </summary>
+            <returns>Una lista con todos los mantenimientos. La lista vacía si no hay mantenimientos.</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Retorna un mantenimiento dado su id
+            </summary>
+            <param name="id">Identificador del mantenimiento</param>
+            <returns>Mantenimiento encontrado,de lo contrario si no existe un mantenimiento con ese identificador, se le muestra un mensaje</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.GetMantCabanhas(System.Nullable{System.Int32})">
+            <summary>
+            Retorna los mantenimientos que tiene una cabaña
+            </summary>
+            <param name="idCabanha">Identificador de la cabaña</param>
+            <returns>Mantenimiento encontrado,de lo contrario si no existe un mantenimiento con ese identificador, se le muestra un mensaje</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.GetMantPorFecha(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.Nullable{System.Int32})">
+            <summary>
+            Retorna los mantenimientos que tiene una cabaña entre las dos fechas indicadas
+            </summary>
+            <param name="f1">Fecha desde donde buscar el mantenimiento</param>
+            <param name="f2">Fecha hasta donde buscar mantenimiento</param>
+            <param name="idCab">Identificador de la cabaña para filtrar los mantenimientos</param>
+            <returns>Mantenimiento encontrado,de lo contrario si no existe un mantenimiento con ese identificador, se le muestra un mensaje</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.Post(Hotel.LogicaAplicacion.Dtos.Mantenimiento_Dto.MantenimientoDto)">
+            <summary>
+            Registra un nuevo mantenimiento
+            </summary>
+            <param name="mantDto">Objeto que incluye toda la información para crear el mantenimiento.</param>
+            <returns>
+            Si el alta es exitosa, incluye la url para poder acceder al mantenimiento y 
+            en el body los datos del mantenimiento.
+            </returns>
+            <response code="201">Retorna el mantenimiento incluyendo el id que le fue asignado.</response>
+            <response code="401">Si no esta autorizado.</response>
+            <response code="404">El mantenimiento es nul o hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.Put(System.Nullable{System.Int32},Hotel.LogicaAplicacion.Dtos.Mantenimiento_Dto.MantenimientoDto)">
+            <summary>
+            Permite modifciar un montenimiento
+            </summary>
+            <param name="id">Identificador del mantenimiento</param>
+            <param name="mant">Contiene los datos modificados del mantenimiento</param>
+            <returns>Retorna los datos modificados</returns>
+            <response code="401">Si no esta autorizado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.MantenimientoController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Elimina un mantenimiento
+            </summary>
+            <param name="id">Identificador para eliminar el mantenimiento</param>
+            <response code="401">Si no esta autorizado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.Get">
+            <summary>
+            Retorna todos los tipos de cabañas registrados.
+            </summary>
+            <returns>Una lista con todos los tipos de cabaña. La lista vacía si no hay tipos de cabañas.</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.Get(System.Nullable{System.Int32})">
+            <summary>
+            Retorna un tipo de cabaña dado su ID
+            </summary>
+            <param name="id">Identificador del tipo de cabaña</param>
+            <returns>El tipo de cabaña encontrado de lo contrario null si no existe un tipo de cabaña con ese identificador</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.Post(Hotel.LogicaAplicacion.Dtos.TipoCabanha_Dto.TipoCabanhaDto)">
+            <summary>
+            Registra un nuevo tipo de cabaña. El nombre debe ser unico
+            </summary>
+            <param name="tipoCabanhaDto">Objeto que incluye toda la información para crear un tipo de cabaña.</param>
+            <returns>
+            Si el alta es exitosa, incluye la url para poder acceder al tipo de cabaña y 
+            en el body los datos del tipo de cabaña.
+            </returns>
+            <response code="201">Retorna el tipo de cabaña, incluyendo el id que le fue asignado.</response>
+            <response code="401">Si no esta autorizado.</response>
+            <response code="404">El tipo de cabaña es nulo o hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.PutDescripcionCostoHuesped(System.Nullable{System.Int32},Hotel.LogicaAplicacion.Dtos.TipoCabanha_Dto.TipoCabanhaEditarDto)">
+            <summary>
+            Modifica la descripción y el costo por huesped del tipo de cabaña dado su ID.
+            </summary>
+            <param name="id">Identificador del tipo de cabaña a modificar.</param>
+            <param name="tipoCabanhaDto">Objeto que guarda toda la informacion a modificar.</param>
+            <returns>Muestras los datos del tipo de cabaña en caso de exito y su codigo de estado</returns>
+            <response code="200">Retorna el tipo de cabaña, incluyendo el id que le fue asignado.</response>
+            <response code="404">El tipo de cabaña o id es nulo. Hay errores en los datos.</response> 
+            <response code="401">Si no esta autorizado.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Permite eliminar un tipo de cabaña identificado por su id
+            </summary>
+            <param name="id">Identificador del tipo de cabaña a eliminar</param>
+            <returns>Retona indicando que el objeto no existe,</returns>        
+            <response code="204">En caso de eliminarlo con exito</response>
+            <response code="404">Si el tipo de cabaña o id es nulo. Hay errores en los datos.</response>
+            <response code="401">Si no esta autorizado.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TipoCabanhaController.GetByNombre(System.String)">
+            <summary>
+            Busca un tipo de cabaña por su nombre
+            </summary>
+            <param name="nombre">Parametro que se utilizara para buscar el tipo de cabaña</param>
+            <returns>Se mostraran los datos del tipo de cabaña con ese nombre</returns>      
+            <response code="204">En caso de eliminarlo con exito</response>
+            <response code="400">Si el nombre del tipo de cabaña es nulo. Hay errores en los datos.</response>
+            <response code="500">Error inesperado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TopesDescripcionController.Get">
+            <summary>
+            Devuelve los topes permitidos para la descripcion de caba tipo de objeto
+            </summary>
+            <returns>Devuelve los topes actuales</returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.TopesDescripcionController.Post(Hotel.LogicaAplicacion.Dtos.TopesDescripcion_Dto.TopesDescripcionDto)">
+            <summary>
+            Crea un nuevo tope de descripción
+            </summary>
+            <remarks>
+            
+                En nombreObj incluir:
+                 Para Cabaña = cab
+                 Para Tipo Cabaña = tc
+                 Para Mantenimiento = man
+            <code>
+                Ejemplo de solicitud:
+                POST api/cabanha
+                Incluir en el body:
+                }
+                    "id": 0,
+                    "nombreObj": "string",
+                    "topeMin": 0,
+                    "topeMax": 0
+                }
+                 </code>
+            </remarks>
+            <param name="tope"></param>
+            <response code="401">Si no esta autorizado.</response>
+        </member>
+        <member name="M:Hotel.API.Controllers.TopesDescripcionController.Put(System.Nullable{System.Int32},Hotel.LogicaAplicacion.Dtos.TopesDescripcion_Dto.TopesDescripcionDto)">
+            <summary>
+            Edita los limites de caracteres de la descripcion
+            </summary>
+            <param name="id">Identificador del tope</param>
+            <param name="tope">Datos a editar, tope minimo y tope maximo</param>
+            <response code="401">Si no esta autorizado.</response>
+            <returns></returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.UsuarioController.Post(Hotel.LogicaAplicacion.Dtos.Usuario_Dto.UsuarioDto)">
+            <summary>
+            Registrar un nuevo usuario
+            </summary>
+            <param name="usuarioDto">Datos para registrar al usuario</param>
+            <returns></returns>
+        </member>
+        <member name="M:Hotel.API.Controllers.UsuarioController.Login(Hotel.LogicaAplicacion.Dtos.Usuario_Dto.UsuarioDto)">
+            <summary>
+            Login de usuario
+            </summary>
+            <param name="usuario">Datos para ingresar al sistema</param>
+            <returns>Retorna el login del usario con su token</returns>
+        </member>
+    </members>
+</doc>
